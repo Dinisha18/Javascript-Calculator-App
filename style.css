@@ -14,6 +14,7 @@
 
 body, html {
     overflow: hidden;
+    background-color: aquamarine;
 }
 
 body{
@@ -26,18 +27,14 @@ body{
 
 .calc-container{
     background-color: var(--container-color);
-    height: 38rem;
-    width: 31rem;
+    height: 39rem;
+    width: 35rem;
     display: flex;
     flex-direction: column;
     border-radius: 5%;
     overflow-x: hidden;
     border: 5px solid rgb(47, 44, 44);
 }
-
-
-
-    
 
 
 .calc-output{
@@ -82,6 +79,8 @@ body{
 
 }
 
+
+
 .btn{
     background-color: var(--button-color);
     color: var(--text-color2);
@@ -89,11 +88,13 @@ body{
     border:2px solid coral;
     border-radius: 15px;
     cursor:pointer;
+    
 }
 
 .btn > .rcircle {
     position:absolute;
     background:blue;
+    
     border-radius: 50%;
    animation: ripples 0.5s linear 1;
 }
@@ -103,6 +104,7 @@ body{
         height:0px;
         width:0px;
         opacity:0.5;
+        
     
     }
     100%{
@@ -117,7 +119,7 @@ body{
     grid-row:span 2;
     display: flex;
     justify-content: center;
-
+   
    
 }
 
